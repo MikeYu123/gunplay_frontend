@@ -1,0 +1,104 @@
+@font-face {
+  font-family: '8 bit';
+  src: url(./fonts/8bitcyrillic.ttf) format("truetype"); }
+html {
+  height: 100%; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 0;
+  font-family: '8 bit';
+  font-size: 18pt;
+  font-weight: 700;
+  width: 90%;
+  height: 90%; }
+
+#root {
+  display: flex;
+  width: 90%;
+  height: 90%; }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+  .App h1 {
+    margin: 5px 5px; }
+
+.LoginForm {
+  padding: 10px;
+  width: 100%; }
+
+.InputField {
+  margin-bottom: 10px; }
+  .InputField input {
+    width: 95%;
+    display: block;
+    font-family: inherit;
+    line-height: 1px;
+    font-size: .8em;
+    border: 2px solid black; }
+    .InputField input:focus {
+      background-color: rgba(0, 0, 0, 0.1); }
+
+.ButtonGroup {
+  width: 100%;
+  align-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.Button {
+  align-self: center;
+  text-align: center;
+  cursor: pointer;
+  flex: 2;
+  background-color: black;
+  color: white;
+  max-width: 100px;
+  padding: 5px;
+  margin: 0 20px;
+  font-weight: 900;
+  line-height: 1.2; }
+  .Button:active {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+.SocialMediaButton {
+  align-self: center;
+  text-align: center;
+  cursor: pointer;
+  flex: 2;
+  color: white;
+  font-weight: 900; }
+  .SocialMediaButton img:active {
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+.RoomCard {
+  min-width: 300px;
+  border: 2px solid black;
+  padding: 10px; }
+  .RoomCard h3, .RoomCard article {
+    margin: 10px 0px; }
+
+.RoomsTable table {
+  border-collapse: collapse; }
+  .RoomsTable table th, .RoomsTable table td {
+    padding: 5px;
+    border: 2px solid black; }
+
+/*# sourceMappingURL=index.css.map */
